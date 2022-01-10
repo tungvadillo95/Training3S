@@ -4,10 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace DDDExample.Infrastructure
 {
-    public class DDDExampleDbContext : DbContext
+    public class DDDExampleDbContext : DbContext, IDDDExampleDbContext
     {
         public DDDExampleDbContext(DbContextOptions<DDDExampleDbContext> options) : base(options)
         {
@@ -15,8 +16,11 @@ namespace DDDExample.Infrastructure
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            //modelBuilder.ApplyConfiguration(new UserConfiguration());
+            modelBuilder.ApplyConfiguration(new UserConfiguration());
             modelBuilder.ApplyConfiguration(new RoleConfiguration());
+            modelBuilder.ApplyConfiguration(new ProductConfiguration());
+            modelBuilder.ApplyConfiguration(new OrderConfiguration());
+            modelBuilder.ApplyConfiguration(new OrderDetailConfiguration());
 
             //modelBuilder.Entity<Role>()
             //            .HasMany<User>(r => r.Users)
@@ -26,5 +30,12 @@ namespace DDDExample.Infrastructure
         }
         public DbSet<User> Users { get; set; }
         public DbSet<Role> Roles { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
+        public async Task<int> SaveChangesAsync()
+        {
+            return await base.SaveChangesAsync();
+        }
     }
 }

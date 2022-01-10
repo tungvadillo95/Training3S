@@ -16,3 +16,6 @@ D:\Training3S\DDDExample\DDDExample.Domain\obj\Debug\netcoreapp3.1\DDDExample.Do
 D:\Training3S\DDDExample\DDDExample.Domain\obj\Debug\netcoreapp3.1\DDDExample.Domain.csproj.CoreCompileInputs.cache
 D:\Training3S\DDDExample\DDDExample.Domain\obj\Debug\netcoreapp3.1\DDDExample.Domain.dll
 D:\Training3S\DDDExample\DDDExample.Domain\obj\Debug\netcoreapp3.1\DDDExample.Domain.pdb
+D:\Training3S\DDDExample\DDDExample.Domain\bin\Debug\netcoreapp3.1\DDDExample.Infrastructure.dll
+D:\Training3S\DDDExample\DDDExample.Domain\bin\Debug\netcoreapp3.1\DDDExample.Infrastructure.pdb
+D:\Training3S\DDDExample\DDDExample.Domain\obj\Debug\netcoreapp3.1\DDDExample.Domain.csproj.CopyComplete

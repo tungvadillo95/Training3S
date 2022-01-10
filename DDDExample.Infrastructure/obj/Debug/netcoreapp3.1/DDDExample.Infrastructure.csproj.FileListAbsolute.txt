@@ -18,13 +18,10 @@ D:\Training3S\DDDExample\DDDExample.Infrastructure\bin\Debug\netcoreapp3.1\DDDEx
 D:\Training3S\DDDExample\DDDExample.Infrastructure\bin\Debug\netcoreapp3.1\DDDExample.Infrastructure.runtimeconfig.dev.json
 D:\Training3S\DDDExample\DDDExample.Infrastructure\bin\Debug\netcoreapp3.1\DDDExample.Infrastructure.dll
 D:\Training3S\DDDExample\DDDExample.Infrastructure\bin\Debug\netcoreapp3.1\DDDExample.Infrastructure.pdb
-D:\Training3S\DDDExample\DDDExample.Infrastructure\bin\Debug\netcoreapp3.1\DDDExample.Domain.dll
-D:\Training3S\DDDExample\DDDExample.Infrastructure\bin\Debug\netcoreapp3.1\DDDExample.Domain.pdb
 D:\Training3S\DDDExample\DDDExample.Infrastructure\obj\Debug\netcoreapp3.1\DDDExample.Infrastructure.csproj.AssemblyReference.cache
 D:\Training3S\DDDExample\DDDExample.Infrastructure\obj\Debug\netcoreapp3.1\DDDExample.Infrastructure.AssemblyInfoInputs.cache
 D:\Training3S\DDDExample\DDDExample.Infrastructure\obj\Debug\netcoreapp3.1\DDDExample.Infrastructure.AssemblyInfo.cs
 D:\Training3S\DDDExample\DDDExample.Infrastructure\obj\Debug\netcoreapp3.1\DDDExample.Infrastructure.csproj.CoreCompileInputs.cache
-D:\Training3S\DDDExample\DDDExample.Infrastructure\obj\Debug\netcoreapp3.1\DDDExample.Infrastructure.csproj.CopyComplete
 D:\Training3S\DDDExample\DDDExample.Infrastructure\obj\Debug\netcoreapp3.1\DDDExample.Infrastructure.dll
 D:\Training3S\DDDExample\DDDExample.Infrastructure\obj\Debug\netcoreapp3.1\DDDExample.Infrastructure.pdb
 D:\Training3S\DDDExample\DDDExample.Infrastructure\obj\Debug\netcoreapp3.1\DDDExample.Infrastructure.genruntimeconfig.cache

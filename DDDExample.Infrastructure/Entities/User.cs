@@ -18,8 +18,8 @@ namespace DDDExample.Infrastructure.Entities
         [Required]
         [StringLength(20)]
         public string Password { get; set; }
-        //public int RoleId { get; set; }
-        //[ForeignKey("RoleId")]
-        //public Role Role { get; set; }
+        public Guid RoleId { get; set; }
+        [ForeignKey("RoleId")]
+        public Role Role { get; set; }
     }
 }

@@ -19,12 +19,12 @@ namespace DDDExample.Infrastructure.EntitiesConfig
             builder.HasData(
                 new Role
                 {
-                    Id = new Guid(),
+                    Id = new Guid("a600280d-e519-41d5-998f-82fd428af9f3"),
                     RoleName = "Admin"
                 },
                 new Role
                 {
-                    Id = new Guid(),
+                    Id = new Guid("a02a928b-425c-45dc-9441-82cae13dc44a"),
                     RoleName = "Employee"
                 }
             );
